@@ -3,14 +3,14 @@ import { useState } from "react"
 import { SlideWrapper } from "./style"
 const Slide = () =>{
   const [itemList,setItemList] = useState([
-    { name:'地图选项1',color:'#6584b3'},
-    { name:'地图选项2',color:'#dc9360'},
-    { name:'地图选项3',color:'#93cbba'},
-    { name:'地图选项4',color:'#b4aa92'},
-    { name:'地图选项5',color:'#e4dfba'},
-    { name:'地图选项6',color:'#c4db5d'},
-    { name:'地图选项7',color:'#7c9878'},
-    { name:'地图选项8',color:'#eeffd0'},
+    { name:'基础设置',color:'#6584b3'},
+    { name:'风格',color:'#dc9360'},
+    { name:'特殊点',color:'#93cbba'},
+    { name:'奇异点',color:'#b4aa92'},
+    { name:'大陆',color:'#e4dfba'},
+    { name:'海洋',color:'#c4db5d'},
+    { name:'森林',color:'#7c9878'},
+    { name:'账号设置',color:'#eeffd0'},
   ])
   return (
     <SlideWrapper>
