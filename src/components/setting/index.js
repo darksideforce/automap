@@ -1,8 +1,10 @@
 import RightDrawer from "../right-drawer"
+import BasicInput from "../select"
 
-const Setting = ()=>{
+
+const Setting = () => {
   return (
-      <RightDrawer></RightDrawer>
+    <RightDrawer center={<BasicInput />}></RightDrawer>
   )
 }
 export default Setting 

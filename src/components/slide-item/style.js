@@ -11,6 +11,8 @@ export const SlideItemWrapper = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
+    font-size:18px;
+    font-weight:bold;
   }
   .longer{
     animation: longer 300ms ease-in-out forwards;
