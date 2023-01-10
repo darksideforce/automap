@@ -1,4 +1,8 @@
+import MapArea  from "../../components/mapnoise"
+import {MapWrapper } from './style'
 function map () {
-  return <div>地图区域!</div>
+  return <MapWrapper>
+    <MapArea></MapArea>
+  </MapWrapper>
 }
 export default map
