@@ -13,12 +13,13 @@ function P5Components(props) {
     };
   }
   //类似mounted的步骤
-  useEffect(() => {
+  useEffect(()=>init(),[])
+  //初始化
+  function init(){
     let el = refP5;
     let p5cv = new p5(sketch || defaultSketch, el);
-    //this.emit("created", p5cv);
-    //console.log('打印了p5')
-  })
+    props.created(p5cv)
+  }
   return <div id="p5"
     ref={(el) => {
       refP5 = el;
